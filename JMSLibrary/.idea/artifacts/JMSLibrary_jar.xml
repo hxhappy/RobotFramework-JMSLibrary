@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="JMSLibrary:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/JMSLibrary_jar</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts</output-path>
     <root id="archive" name="JMSLibrary.jar">
       <element id="module-output" name="JMSLibrary" />
       <element id="extracted-dir" path="C:/tibco/ems/clients/Java/crimson.jar" path-in-jar="/" />
