@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec generated="20170724 11:22:18" format="ROBOT" type="library" name="Message.TibcoEMS">
+<version></version>
+<scope>test suite</scope>
+<namedargs>no</namedargs>
+<doc></doc>
+<kw name="Close Connection">
+<arguments>
+</arguments>
+<doc>Disconnect from EMS server</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Connect Server">
+<arguments>
+<arg>serverURL</arg>
+<arg>userName</arg>
+<arg>password</arg>
+</arguments>
+<doc>Connect tibco EMS server.
+
+Examples:
+| Connect Server | EMSServerURL | UserName | Password |</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Send Message">
+<arguments>
+<arg>useTopic</arg>
+<arg>destinationName</arg>
+<arg>msg</arg>
+</arguments>
+<doc>Send message to topic or queue.
+
+Examples:
+| ${Message}= | This is a message |
+| Send Message | ${true} | topicName  | ${Message} |
+| Send Message | ${false} | queueName  | ${Message} |</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Property">
+<arguments>
+<arg>key</arg>
+<arg>value</arg>
+</arguments>
+<doc>Set properties of message.
+
+Examples:
+| Set Property | OLP_SENDER_ID | CargoSmart |
+| Set Property | OLP_RECIPIENT_ID | POCS |</doc>
+<tags>
+</tags>
+</kw>
+</keywordspec>
