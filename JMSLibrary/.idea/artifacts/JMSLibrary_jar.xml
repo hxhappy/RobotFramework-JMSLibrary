@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JMSLibrary:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JMSLibrary_jar</output-path>
+    <root id="archive" name="JMSLibrary.jar">
+      <element id="module-output" name="JMSLibrary" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/crimson.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/javax.jms-3.1.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/jaxp.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/jcert.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/jms.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/jndi.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/jnet.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/jsse.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/jta-spec1_0_1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/tibcrypt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/tibjms.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/tibjmsadmin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/tibjmsapps.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/tibco/ems/clients/Java/tibrvjms.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
